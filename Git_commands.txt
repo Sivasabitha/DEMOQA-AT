@@ -1,0 +1,33 @@
+1. git --version
+
+2. git clone https://github.com/sivasabitha/flutter-work.git
+
+3.git clone git@github.com:sivasabitha/flutter-work.git   (2 is not work then use it)
+
+4.git ls-remote https://github.com/sivasabitha/flutter-work.git (2,3 is not work then use it)
+
+5.ssh -T git@github.com (if ssh error will come use it)
+
+6.ssh -T -p 443 git@ssh.github.com (5 get error then use it)
+
+7.git init
+
+8.git add .
+
+9.git commit -m "Initial commit"
+
+10. git config --global user.email "sivasabithak15@gmail.com"
+
+11.git config --global user.name "sivasabitha"
+
+12.git init
+
+13.git commit -m "Initial commit"
+
+14.git remote add origin https://github.com/sivasabitha/flutter-work.git
+
+15.git push -u origin master
+
+(inside give username: sivasabitha
+password: {git token for repository token})
+
